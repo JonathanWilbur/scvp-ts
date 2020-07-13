@@ -6,8 +6,8 @@ module.exports = {
     ],
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: ".min.js",
-        library: "",
+        filename: "scvp.min.js",
+        library: "scvp",
         libraryTarget: "var",
     },
     // mode: "development",

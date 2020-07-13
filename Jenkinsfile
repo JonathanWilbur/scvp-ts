@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/JonathanWilbur/scvp-ts.git'
             }
         }
         stage('Install') {
