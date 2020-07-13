@@ -66,6 +66,8 @@
     "version": "0.1.0",
     "dependencies": {
         "asn1-ts": "^3.3.1",
+        "cms-ts": "^1.0.0-rc2",
+        "ocsp-ts": "^0.1.0",
         "x500-ts": "^1.0.0-rc1"
     }
 }

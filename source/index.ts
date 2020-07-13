@@ -1,6 +1,1 @@
-export default
-function hello (): string {
-    return "It worked!";
-}
-
-console.log(hello());
+export * as SCVP_2009 from "./SCVP-2009";
